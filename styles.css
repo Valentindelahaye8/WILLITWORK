@@ -1,15 +1,20 @@
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+@font-face {
+    font-family: Narziss;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
+}
+
 body {
-    font-family: sans-serif;
+    font-family: Narziss, sans-serif;
     background-color: #fff;
   }
   
-  h1 {
-    font-size: 2em;
-    text-align: center;
-  }
+ 
   
   nav {
-    background-color: #000;
+    background-color: #133746;
     color: #fff;
     padding: 10px;
   }
@@ -24,24 +29,91 @@ body {
   }
   
   footer {
-    background-color: #000;
+    background-color: #133746;
     color: #fff;
     padding: 10px;
   }
 
   .top-right-links {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    
   }
   
   .top-right-links a {
-    color:rgb(20, 83, 92);
+    background-color: #133746;
+    color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 50px;
+    
+    transition: background-color 0.2s ease, color 0.2s ease,
+    border 0.2s ease; /* Add transition property */
+    
   }
   
-  .top-right-links a:hover {
-    color: #000;
-    text-decoration: underline;
+
+  .top-right-links ::after {
+   
+    content: ""; /* Add a separator (you can use any symbol or character you prefer) */
+    height: 20px #fff;
+
   }
+
+
+
+  .top-right-links a:hover {
+   
+    background-color: #fff;
+    color: #133746;
+    border: 20px solid #fff ;
+  }
+
+  html {
+ background:#012433
+  }
+
+  h1 {
+   width: 100%;
+   display:flex;
+   justify-content:center;
+   margin-top: 2vh;
+
+}
+
+img {
+    display: block;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: auto;
+    
+}
+
+main, p, h1, h2 {
+    margin-block-start:0; margin-block-end:0; margin-inline-start:0; margin-inline-end:0;
+    padding: 0%;
+}
+
+.header-main{
+  position:absolute;
+  margin-left:20vh;
+  margin-top:30vh;
+}
+
+.image {
+position: relative;
+
+}
+
+.container{
+position: relative;
+}
+
