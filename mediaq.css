@@ -1,0 +1,7 @@
+@media screen and (max-width: 640px) {
+    .col{
+      display:flex;
+      justify-content: space-between;
+
+    }
+}

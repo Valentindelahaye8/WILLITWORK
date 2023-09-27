@@ -1,0 +1,7 @@
+@media screen and (max-width: 640px) {
+  .col {
+    width: 33.33%;
+    float: left;
+    padding: 0 10px;
+ }
+}
