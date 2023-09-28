@@ -41,7 +41,12 @@ body, html {
 
 
 
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
  
 
 
@@ -116,13 +121,11 @@ main,p, h2
 
 
 
-img{
-  width: 1234px;
-  height: 573px;
-  flex-shrink: 0;
-  flex-basis: max-content;
-  object-fit: cover;}
-
+img {
+  width: 1265px; /* Set the desired width in pixels or any other unit */
+  height:auto;
+  
+}
 
 html 
 {
@@ -206,3 +209,4 @@ min-height:20vh
 min-height:10vh
 
 
+/*for mobile device remove image css so the image fill the entire screen*/
